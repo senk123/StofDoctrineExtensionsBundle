@@ -32,10 +32,6 @@
     },
     "autoload": {
         "psr-4": { "Stof\\DoctrineExtensionsBundle\\": "" }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.3.x-dev"
-        }
     }
+ 
 }

@@ -11,14 +11,20 @@
             "email": "stof@notk.org"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/senk123/DoctrineExtensions.git"
+        }
+    ],
     "require": {
         "php": ">=5.3.2",
-        "symfony/framework-bundle": "~2.7|~3.2|~4.0|~5.0",
+        "symfony/framework-bundle": "~5.0",
         "agf/doctrine-extensions": "^2.3.4"
     },
     "require-dev": {
         "symfony/phpunit-bridge": "^5.0",
-        "symfony/security-bundle": "^2.7 || ^3.2 || ^4.0 || ^5.0"
+        "symfony/security-bundle": "^5.0"
     },
     "suggest": {
         "doctrine/doctrine-bundle": "to use the ORM extensions",

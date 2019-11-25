@@ -1,8 +1,9 @@
 <?php
 
-use Gedmo\Uploadable\MimeType\MimeTypeGuesserInterface;
 namespace Stof\DoctrineExtensionsBundle\Uploadable;
 use Symfony\Component\Mime\MimeTypes;
+
+use Gedmo\Uploadable\MimeType\MimeTypeGuesserInterface;
 
 class MimeTypeGuesserAdapter implements MimeTypeGuesserInterface
 {
